@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+    font-size: 4rem;
+    display: flex; /* Ustawiamy kontener na Flexbox */
+    justify-content: center; /* Wyśrodkowanie w poziomie */
+    align-items: center; /* Wyśrodkowanie w pionie */
+}
